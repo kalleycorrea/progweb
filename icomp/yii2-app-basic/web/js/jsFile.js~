@@ -1,0 +1,7 @@
+function handleMouseOver(elem) {
+	elem.style.color='green';
+}
+
+function handleMouseOut(elem) {
+	elem.style.removeProperty('color');
+}
